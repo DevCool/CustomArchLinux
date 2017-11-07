@@ -1,0 +1,49 @@
+==================================================
+=   PRS Custom Arch Linux - Awesome WM Live CD   =
+==================================================
+
+Install Scripts:
+
+  - install.sh - main installation script.
+
+  - dl_repos.sh - run  right after main install
+            script. while you are chrooted.
+
+  - setup-user.sh - run right after main install
+            script. while you are chrooted.
+
+Installation:
+
+  - Open terminal and type 'sudo -i' without
+    quotes.
+
+  - Then, just type: install.sh in the terminal.
+
+  - Answer the questions and it will finally
+    start the install process.
+
+  - After that is done and you are chrooted into
+    the new installation. Set your timezone info
+    with 'timedatectl' command.
+
+  - Finally, you can install a bootloader, run my
+    'setup-user.sh' script and don't forget to
+    'mkinitcpio -p linux' with quotes ofcourse.
+
+  - Note: You can also install dwm with my custom
+    install script for that, in chrooted environ-
+    ment.
+
+    Just do the following to install dwm with or
+    without my custom config.def.h. Type,
+    'su liveuser' without quotes. Then you should
+    be able to type 'cd' press enter, Finally.
+    Launch 'dl_repos.sh' script in /usr/bin. That
+    should download all repos needed for suckless
+    dwm to work out of the box. Also, you can use
+    it to apply my custom patch and install the
+    packages as well.
+
+==================================================
+=       End of Custom Arch Install Readme        =
+==================================================

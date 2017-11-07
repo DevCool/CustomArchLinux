@@ -1,0 +1,20 @@
+Arch Linux Midfingr Edition
+
+ISO refresh June 2016
+
+- lightdm login manager replaces lxdm
+- lightdm settings manager for customizing the login screen
+- volumeicon replaces volwheel
+- included chrome and chromium flags for optimal speed and safety
+- Documentation expanded to include Nvidia Libraries and configuration
+- efitools replace prebootloader # as per Arch Linux packages
+- networkmanager-dispatcher-ntpd # sync computer time using the network time protocol
+
+ISO refresh March 2016
+
+- xfce4 desktop environment
+- menu-driven installer by Carl Duff updated to v2.2
+- removed gnome application integration
+- removed pacmac-aur
+- expanded Documentation to include Virtualbox services when running as Guest
+- chromium avatars for use with mugshot

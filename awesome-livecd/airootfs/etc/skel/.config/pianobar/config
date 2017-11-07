@@ -1,0 +1,5 @@
+audio_quality = {high, medium, low}
+autostart_station =
+
+password = changeme
+user = changeme
