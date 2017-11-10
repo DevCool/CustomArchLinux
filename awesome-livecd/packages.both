@@ -179,6 +179,8 @@ libreoffice
 vlc
 unrar
 nmap
+linux-lts
+linux-lts-headers
 
 # hacking tools
 ettercap-gtk

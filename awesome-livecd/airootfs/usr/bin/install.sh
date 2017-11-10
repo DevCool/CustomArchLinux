@@ -94,6 +94,7 @@ if [[ "$input" = "y" || "$input" = "Y" ]]; then
 	rm /mnt/etc/mkinitcpio-archiso.conf
 	rm -r /mnt/etc/initcpio
 
+	sed -i '9 s/^/#/' /mnt/etc/skel/.bash_profile
 	genfstab -L /mnt >> /mnt/etc/fstab && cat /mnt/etc/fstab
 	arch-chroot /mnt /bin/bash
 	rm /mnt/usr/bin/{dl_repos,install,setup-user}.sh
